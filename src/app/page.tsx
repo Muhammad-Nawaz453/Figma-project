@@ -58,7 +58,7 @@ export default function Home() {
                 </button>
              </div>
              <div className="md:mt-10 ml-36">
-              <img src="hero-image.png" alt="image not available" width={250} height={250} className="rounded-full shadow-x1 ml-36"/>
+              <Image src="hero-image.png" alt="image not available" width={250} height={250} className="rounded-full shadow-x1 ml-36"/>
              </div>
              </section>   
 
@@ -106,7 +106,7 @@ export default function Home() {
         <div className="space-y-8">
         {works.map((work, index) => (
     <div key={index} className="flex space-x-6 mr-72 ml-32">
-  <img 
+  <Image
   src={work.image}
   alt={work.title}
   className="w-32 h-32 object-cover rounded-md" />
